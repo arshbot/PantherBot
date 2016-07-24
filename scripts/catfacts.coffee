@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Description:
 #   Retrieves random cat facts.
 #
@@ -23,5 +24,3 @@ module.exports = (robot) ->
                 	msg.send response.facts[0]
                 else
                 	msg.send "Unable to get cat facts right now."
-				
-				

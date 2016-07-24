@@ -39,3 +39,4 @@ giphyMe = (msg, query, cb) ->
         cb 'Error'
 
       return if response is undefined
+
