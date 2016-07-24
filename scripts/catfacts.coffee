@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Description:
 #   Retrieves random cat facts.
 #
@@ -21,6 +20,8 @@ module.exports = (robot) ->
                 # passes back the complete reponse
                 response = JSON.parse(body)
                 if response.success == "true"
-                	msg.send response.facts[0]
+                        msg.send response.facts[0]
                 else
-                	msg.send "Unable to get cat facts right now."
+                        msg.send "Unable to get cat facts right now."
+				
+				
