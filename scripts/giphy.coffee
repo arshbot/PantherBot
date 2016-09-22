@@ -13,7 +13,7 @@ giphy =
 
 module.exports = (robot) ->
   robot.respond /(gif|giphy)( me)? (.*)/i, (msg) ->
-    giphyMe msg, msg.match[3], (url) ->
+    giphyMe msg, msg.match[0], (url) ->
       msg.send url
 
 giphyMe = (msg, query, cb) ->
